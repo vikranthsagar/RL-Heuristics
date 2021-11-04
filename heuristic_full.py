@@ -5,7 +5,7 @@ import random
 from scipy import linalg
 from sklearn.linear_model import ARDRegression
 from scipy.stats import norm, uniform, entropy, logistic, beta, poisson, kstest, probplot, ttest_ind
-
+np.seterr(divide='ignore', invalid='ignore')
 
 class heuristic(object):
 
